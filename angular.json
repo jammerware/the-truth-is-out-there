@@ -25,12 +25,19 @@
             "aot": false,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/extension/icon.png"
             ],
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              {
+                "input": "src/extension/background.js",
+                "bundleName": "background",
+                "inject": false
+              }
+            ]
           },
           "configurations": {
             "production": {
@@ -124,6 +131,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "the-truth-is-out-there"
 }
