@@ -53,7 +53,12 @@ table {
 	border-spacing: 0;
 }
 
-html, body { height: 100%; }
+html, body, section.mat-typography { height: 100%; }
+
+/* site styles */
+a, a:visited {
+	color: #4393D9;
+}
 
 /* material config */
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

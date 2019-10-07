@@ -13,6 +13,6 @@ export class PageActionComponent implements OnInit {
     }
 
     viewAnalysis() {
-        this.chromeService.getExtensionUrl("content/123");
+        this.chromeService.openExtensionUrl("content/123");
     }
 }

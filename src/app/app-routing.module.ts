@@ -5,6 +5,7 @@ import { ContentComponent } from './components/content/content.component';
 
 const routes: Routes = [
     { path: 'content', component: ContentComponent },
+    { path: 'content/:id', component: ContentComponent },
     { path: 'pageAction', component: PageActionComponent }
 ];
 
